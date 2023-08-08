@@ -1,15 +1,19 @@
+*{
+    font-family: "Roboto", sans-serif ;
+}
+
 .lesson-four-task-one .btn:hover {
     color: red;
     background: yellow;
 
 }
-.lesson-four-task-two .title:hover {
+.lesson-four-task-two .link:hover + .title   {
     background: green;
 }
 .lesson-four-task-three .link:visited {
     color: yellow;
 }
-.lesson-four-task-four .link {
+.lesson-four-task-four .link:link {
 color: red;
 }    
 
@@ -27,7 +31,7 @@ color: red;
     color: white;
     background: blue;   
 }
-.lesson-four-task-nine .p:lang(uk)  {
+.lesson-four-task-nine :lang(uk)  {
     color: blue;
 }
 .lesson-four-task-ten input[type]:enabled {
